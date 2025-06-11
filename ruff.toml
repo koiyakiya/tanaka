@@ -1,0 +1,11 @@
+[lint]
+extend-select = [
+    "UP", # pyupgrade
+]
+
+[format]
+quote-style = "single" # Prefer single quotes over double quotes.
+skip-magic-trailing-comma = true
+
+[lint.pydocstyle]
+convention = "google"

@@ -1,0 +1,8 @@
+{
+    "cmds.emoji.clone.success": "Emoji cloned successfully!",
+    "cmds.emoji.clone.error": "That's a unicode emoji. You can't upload that.",
+    "cmds.emoji.clone.description": "Clone an emoji from another guild.",
+    "cmds.emoji.clone.name": "clone",
+    "cmds.emoji.clone.emoji.name": "emoji",
+    "cmds.emoji.clone.emoji.description": "Emoji to clone"
+}

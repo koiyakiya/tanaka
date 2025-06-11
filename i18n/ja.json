@@ -1,0 +1,8 @@
+{
+    "cmds.emoji.clone.success": "絵文字のクローンに成功しました！",
+    "cmds.emoji.clone.error": "それはUnicode絵文字です。アップロードすることはできません。",
+    "cmds.emoji.clone.description": "別のサーバーから絵文字をクローンします。",
+    "cmds.emoji.clone.name": "clone",
+    "cmds.emoji.clone.emoji.name": "絵文字",
+    "cmds.emoji.clone.emoji.description": "クローンする絵文字"
+}
