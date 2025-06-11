@@ -19,6 +19,6 @@ __TOKEN__: Final[str] = os.getenv('BOT_TOKEN', '')
 I18N = {}
 _paths = glob.glob('i18n/*.json')
 for path in _paths:
-    with open(path, "rb") as f:
+    with open(path, 'rb') as f:
         data = orjson.loads(f.read())
         I18N[hikari.Locale(Path(path).stem)] = data

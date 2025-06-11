@@ -18,6 +18,7 @@ bot = hikari.GatewayBot(
         | Intents.GUILD_INVITES
         | Intents.DM_MESSAGES
         | Intents.GUILD_MESSAGE_POLLS
+        | Intents.MESSAGE_CONTENT
     ),
 )
 client = lightbulb.client_from_app(bot, localization_provider=_lcldict)
